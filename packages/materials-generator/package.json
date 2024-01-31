@@ -1,6 +1,6 @@
 {
   "name": "@mometa/materials-generator",
-  "version": "0.0.30",
+  "version": "0.0.33",
   "publishConfig": {
     "access": "public",
     "main": "lib",
@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "test": "echo noop",
-    "build": "../../scripts/run build",
+    "build": "npx ../../scripts/run.js build",
     "packlimit": "../../scripts/run packlimit",
     "dev": "npm run build -- --watch",
     "prepare": "npm run build",
